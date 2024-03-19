@@ -1,0 +1,100 @@
+#projects{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.projectTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectDesc{
+    font-weight: 400;
+    font-size: 0.9rem;
+    max-width: 55rem;
+    padding: 3rem 2rem;
+}
+
+.projectBars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1.5rem;
+    max-width: 80%;
+}
+
+
+.projectBar {
+    width: calc(50% - 1rem); 
+    margin-bottom: 1rem; 
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+    position: relative;
+}
+
+.projectBarImg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 2rem;
+}
+
+.projectBarText{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+h2{
+    padding-bottom: 3rem;
+}
+
+p{
+    padding-bottom: 5rem;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 10px; 
+    margin-top: 10px; 
+}
+
+.projectBar .liveBtn {
+    position: absolute;
+    bottom: 2.03rem; 
+    left: 6rem;
+    transform: translateX(-50%); 
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: 400;
+}
+.projectBar .codeBtn {
+    position: absolute;
+    bottom: 2.03rem; 
+    right: 1rem;
+    transform: translateX(-50%); 
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.projectBar .liveBtn:hover,.projectBar .codeBtn:hover {
+    background: #0056b3;
+    color: white;
+}
