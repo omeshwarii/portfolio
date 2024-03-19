@@ -17,12 +17,7 @@
     margin-bottom: 1.5rem;
 }
 
-.projectDesc{
-    font-weight: 400;
-    font-size: 0.9rem;
-    max-width: 55rem;
-    padding: 3rem 2rem;
-}
+
 
 .projectBars {
     display: flex;

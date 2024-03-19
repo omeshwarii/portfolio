@@ -12,7 +12,7 @@ const Skills = () => {
             <div className="skillBarText">
             <img src={frontImg} alt="" className='frontImg'/>
             <h2>Front-End</h2>
-            <p>React, Angular</p>
+            <p>React, Angular, Vue, Bootstrap</p>
             </div>
         </div>
         <div className="skillBar">

@@ -1,4 +1,4 @@
-#about{
+#about {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -8,18 +8,20 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    
 }
 
-.aboutTitle{
+.aboutTitle {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 1rem;
     margin-bottom: 1.5rem;
 }
 
-.aboutDesc{
+.aboutDesc {
     font-weight: 400;
     font-size: 0.9rem;
     max-width: 55rem;
-    padding: 3rem 2rem;
+    padding: 5rem 2rem;
 }
+
