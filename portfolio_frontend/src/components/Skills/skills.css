@@ -61,3 +61,13 @@ p{
     left: 6rem;
 }
 
+@media screen and (max-width: 500px) {
+    .skillBars {
+        max-width: 100%; /* Adjust the maximum width as needed */
+    }
+
+    .skillBar {
+        width: 100%; /* Full width for stacked bars */
+        margin-bottom: 1.5rem; /* Add margin between stacked bars */
+    }
+}

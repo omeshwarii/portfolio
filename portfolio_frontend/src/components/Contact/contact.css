@@ -23,3 +23,10 @@
     max-width: 55rem;
     padding-bottom: 5rem;
 }
+
+@media screen and (max-width: 1500px) {
+    #contact {
+        padding-left: 3rem; /* Add left padding */
+        
+    }
+}

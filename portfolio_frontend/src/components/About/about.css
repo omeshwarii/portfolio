@@ -25,3 +25,10 @@
     padding: 5rem 2rem;
 }
 
+@media screen and (max-width: 1500px) {
+    #about {
+        padding-left: 2rem; /* Add left padding */
+        padding-right: 2rem; /* Add right padding */
+        align-items: center;
+    }
+}

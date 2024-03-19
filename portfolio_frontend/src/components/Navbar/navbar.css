@@ -30,12 +30,12 @@
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
+    font-weight: 200;
 }
 
 .desktopMenuListItem:hover {
-    color: violet;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid violet;
+    color: white;
+    font-weight: 600;
 }
 .desktopMenuBtn{
     background: white;

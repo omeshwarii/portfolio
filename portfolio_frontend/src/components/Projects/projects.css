@@ -93,3 +93,51 @@ p{
     background: #0056b3;
     color: white;
 }
+
+
+@media screen and (max-width: 850px) {
+    .projectBars {
+        max-width: 60%; /* Adjust the maximum width as needed */
+    }
+
+    .projectBar {
+        width: calc(100% - 2rem); /* Full width with spacing */
+        margin: 0.5rem; /* Adjust margin between stacked bars */
+    }
+
+
+    .projectBar .liveBtn,
+    .projectBar .codeBtn {
+        position: absolute; /* Position the buttons absolutely */
+        bottom: 0; /* Align buttons to the bottom */
+        left: 50%; /* Move buttons to the middle horizontally */
+        transform: translateX(-50%); /* Center buttons horizontally */
+        margin-bottom: 1rem; /* Add margin to separate buttons from content */
+        width: 15rem;
+    }
+
+    .projectBar .codeBtn {
+        bottom: 3rem; /* Adjust vertical position of the code button */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projectBars {
+        max-width: 100%; /* Adjust the maximum width as needed */
+    }
+    .projectBar .liveBtn,
+    .projectBar .codeBtn {
+        position: absolute; /* Position the buttons absolutely */
+        bottom: 0; /* Align buttons to the bottom */
+        left: 50%; /* Move buttons to the middle horizontally */
+        transform: translateX(-50%); /* Center buttons horizontally */
+        margin-bottom: 1rem; /* Add margin to separate buttons from content */
+        width: 15rem;
+    }
+
+    .projectBar .codeBtn {
+        bottom: 3rem; /* Adjust vertical position of the code button */
+    }
+
+    
+}
