@@ -39,8 +39,8 @@
 
 .projectBarImg{
     object-fit: cover;
-    height: 3rem;
-    width: 3rem;
+    height: auto;
+    max-width: 100%;
     margin-bottom: 2rem;
 }
 
