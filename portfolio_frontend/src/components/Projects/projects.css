@@ -60,7 +60,7 @@ p{
 .buttonContainer {
     display: flex;
     gap: 10px; 
-    margin-top: 10px; 
+    margin-top: 2rem; 
 }
 
 .projectBar .liveBtn {
@@ -102,9 +102,9 @@ p{
     margin: 1rem; /* Add margin-top for spacing */
     color: rgb(192, 192, 86);
     position: relative; /* Ensure positioning context */
-    top: -4rem; /* Adjust vertical position as needed */
+    top: -3.5rem; /* Adjust vertical position as needed */
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
 
@@ -135,6 +135,7 @@ p{
     }
     .stackContainer {
         margin-bottom: 3.5rem;
+        font-size: 1.2rem;
     }
 }
 
