@@ -4,24 +4,24 @@
     max-width: 65rem;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin: 0 auto;
 }
 
 .contactTitle{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
-    padding-top: 10rem;
+    padding-top: 8rem;
     margin-bottom: 1.5rem;
 }
 
-.contactDesc{
+.contactEmail{
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     max-width: 55rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 1500px) {
@@ -29,4 +29,74 @@
         padding-left: 3rem; /* Add left padding */
         
     }
+}
+
+#contactMe {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.contactPageTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name,.email,.msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(40, 40,40);
+}
+
+.submitBtn{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 1rem;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
 }
