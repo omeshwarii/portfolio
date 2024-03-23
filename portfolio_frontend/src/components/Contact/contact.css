@@ -8,6 +8,7 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .contactTitle{
@@ -64,6 +65,7 @@
     justify-content: center;
     width: 90vw;
     max-width: 60rem;
+    box-sizing: border-box;
 }
 
 .name,.email,.msg{
@@ -99,4 +101,14 @@
     width: 3rem;
     margin: 0 0.75rem;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #contact {
+        padding: 0 0.5rem; /* Adjust padding for smaller screens */
+    }
+
+    .contactForm {
+        padding: 0 0.5rem; /* Adjust padding for smaller screens */
+    }
 }

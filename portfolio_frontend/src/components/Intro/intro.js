@@ -9,7 +9,7 @@ const Intro = () => {
       <div className="introContent">
         <span className="hello">Hello</span>
         <span className="introText">I'm < span className="introName">Omeshwari Jakkula</span></span>
-        <p className="introPara">I'm a recent graduate with a masters degree in Computer Science, welcome to my portfolio</p>
+        <p className="introPara">A recent graduate with a masters degree in Computer Science, Welcome to my portfolio</p>
       
       <div className="links">
       <a href="https://github.com/omeshwarii" className="linkItem">

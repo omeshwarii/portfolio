@@ -4,9 +4,7 @@
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
-    position: relative;
-   /* border-bottom: 2px solid #333;*/
-    
+    position: relative; 
 }
 
 .links {
@@ -28,28 +26,6 @@
     height: 100%;
     object-fit: cover; /* Maintain aspect ratio and cover the container */
   }
-
-
-/*.gitImg{
-    position: absolute;
-    top:80%;
-    left:5%;
-    z-index:1;
-    object-fit: cover;
-    height: 10vh;
-    
-}
-
-
-.linkedinImg{
-    position: absolute;
-    top:82%;
-    left:20%;
-    z-index:1;
-    object-fit: cover;
-    height: 6vh;
-} */
-
 
 .gitImg:hover,
 .linkedinImg:hover {
@@ -83,23 +59,9 @@
     font-size:large;
     font-weight: 300;
     letter-spacing: 1px;
+    margin-bottom: 0;
+    padding: 0;
     
-}
-
-
-.btn{
-    background: white;
-    margin: 1rem 0;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 2rem;
-}
-
-.btnImg{
-    object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1rem;
-
 }
 
 @media screen and (max-width:840px) {
@@ -113,6 +75,7 @@
     .hello{
         font-size: 3.5vw;
     }
+
     
 }
 
