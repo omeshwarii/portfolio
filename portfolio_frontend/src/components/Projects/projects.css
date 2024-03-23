@@ -99,7 +99,7 @@ p{
 .stackContainer {
     display: flex;
     justify-content: space-between;
-    margin: 1rem; /* Add margin-top for spacing */
+    
     color: rgb(192, 192, 86);
     position: relative; /* Ensure positioning context */
     top: -3.5rem; /* Adjust vertical position as needed */
@@ -133,10 +133,7 @@ p{
     .projectBar .codeBtn {
         bottom: 3rem; /* Adjust vertical position of the code button */
     }
-    .stackContainer {
-        margin-bottom: 3.5rem;
-        font-size: 1.2rem;
-    }
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -156,6 +153,18 @@ p{
     .projectBar .codeBtn {
         bottom: 3rem; /* Adjust vertical position of the code button */
     }
-
     
+    .stackContainer {
+        margin-bottom: 3.5rem;
+        font-size: 1rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 400px) {
+    .stackContainer {
+    
+        font-size: 0.8rem;
+    } 
 }
